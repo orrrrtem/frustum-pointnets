@@ -14,7 +14,9 @@ import importlib
 import numpy as np
 import tensorflow as tf
 import cPickle as pickle
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname("/content/drive/My Drive/PointNET_exploration/frustrum/frustum-pointnets")
+print(BASE_DIR)
+print('it was base_dir')
 ROOT_DIR = os.path.dirname(BASE_DIR)
 sys.path.append(BASE_DIR)
 sys.path.append(os.path.join(ROOT_DIR, 'models'))
